@@ -1,0 +1,15 @@
+
+.main_theloai {
+    margin-left: 252px;
+    width: calc(100% - 252px);
+    margin-bottom: 100px;
+    display: none;
+    height: 3000px;
+  }
+  @media screen and (max-width: 1279.98px) {
+  
+    .main_theloai {
+      margin-left: 90px;
+      width: 100%;
+    }
+  }

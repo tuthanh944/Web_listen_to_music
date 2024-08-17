@@ -1,0 +1,25 @@
+
+.main_casi {
+    margin-left: 252px;
+    width: calc(100% - 252px);
+    margin-bottom: 100px;
+    display: none;
+  }
+  @media screen and (max-width: 1279.98px) {
+  
+    .main_casi {
+      margin-left: 90px;
+      width: 100%;
+    }
+  }
+  .singer_choose{
+    width: 100%;
+    background: rgba(44, 47, 72, 0.3);
+    border-radius: 20px;
+  }
+  .tencasi{
+    margin-left: 10px;
+    font-weight: 800;
+    color: white;
+    
+  }

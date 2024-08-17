@@ -1,0 +1,131 @@
+@media screen and (max-width: 1279.98px) {
+  .modal {
+    height: 100%;
+  }
+  .modal .modal-contentx .content .modal_lyric_img{
+    display: none;
+}
+.modal .modal-contentx .content .cmt{
+  display: none;
+}
+.modal .modal-contentx .content .lyric{
+  width: 60%;
+}
+  
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: auto;
+    background-color:rgba(1,1,1,0.7) ;
+    animation-name: modal-slide-down; /* Thêm animation */
+    animation-duration: 0.5s; /* Thời gian animation */
+  }
+  
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Định nghĩa animation */
+  @keyframes modal-slide-down {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  .modal .modal-contentx .content{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: calc(100%-90px);
+
+  }
+  .modal .modal-contentx .content .modal_lyric_img{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin-top: 5%;
+      margin-right: 50px;
+      background-size: contain;
+      border: 2px solid white ;
+  }
+  .modal .modal-contentx .content .cmt{
+    height: 30px;
+    width: 33%;
+    color: white;
+    margin-left: 30px;
+  }
+ #lyric{
+  width: 400px;
+  color: white;
+  overflow: auto;
+  height: 450px;
+  }
+  .modal .modal-contentx .content .cmt .name_cmt_avt{
+    display: flex;
+    
+  }
+  .modal .modal-contentx .content .cmt .khung_cmt{
+    overflow: auto;
+    height: 400px;
+  }
+  .modal .modal-contentx .content .cmt .avtacc{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white ;
+    background-size: contain;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+  .modal .modal-contentx .content .cmt .input_cmt input::placeholder {
+    color: #dadada;
+  }
+  .modal .modal-contentx .content .cmt .input_cmt .input_text input{
+    border: none;
+    outline: none;
+    background: rgb(47, 39, 57);
+    color: #ccc;
+    caret-color: #fff;
+    flex: 1;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 350px;
+  }
+  .modal .modal-contentx .content .cmt .input_cmt .input_text{
+  }
+  .modal .modal-contentx .content .cmt .input_cmt{
+    display: flex;
+    position: fixed;
+    bottom: 90px;
+    width: 100%;
+  }
+  .modal .modal-contentx .content .cmt .input_cmt .submit {
+    margin-top: 5px;
+    position: fixed;
+    right: 5px;
+  }
+  .modal .modal-contentx .content .cmt .input_cmt .submit input{
+    border-radius: 20%;
+    background: rgb(47, 39, 57);
+    color: white;
+  }
